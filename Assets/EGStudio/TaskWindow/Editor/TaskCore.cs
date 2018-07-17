@@ -2,11 +2,11 @@
 //---
 /*
 	History:
-	12-06-2018 v1.00 - Relase
+	12-06-2018 v1.0.0 - Release
+	17-07-2018 v1.0.1 - Fixes:
+						- Ukryto zakładkę Settings, nie jest narazie potrzebna a nie ma opcji tam.
+						- Skasowano komentarze które nic nie wnoszą.
 */
-
-//TODO ogarnąć numerację enums
-//TODO ogarnąć kolory
 //---
 using System;
 using System.IO;
@@ -37,7 +37,7 @@ namespace EG.TaskWindow
 		/// <summary>
 		/// Wersja aplikacji.
 		/// </summary>
-		internal const string AppVersion = "v1.0";
+		internal const string AppVersion = "v1.0.1";
 
 		/// <summary>
 		/// Ścieżka do menu.
