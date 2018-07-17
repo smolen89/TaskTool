@@ -85,10 +85,10 @@ namespace EG.TaskWindow
 					GUILayout.ExpandWidth( false ) );
 
 				GUILayout.FlexibleSpace();
-				if (GUILayout.Button( "Settings", EditorStyles.toolbarButton, GUILayout.ExpandWidth( false ) ))
-				{
-					Core.windowState = WindowStates.Settings;
-				}
+				//if (GUILayout.Button( "Settings", EditorStyles.toolbarButton, GUILayout.ExpandWidth( false ) ))
+				//{
+				//	Core.windowState = WindowStates.Settings;
+				//}
 				GUILayout.Label( TaskCore.AppVersion );
 			}
 			EditorGUILayout.EndHorizontal();
